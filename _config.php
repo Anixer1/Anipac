@@ -1,6 +1,6 @@
 <?php 
 
-$conn = new mysqli("HOSTNAME", "USERNAME", "PASSWORD", "DATABASE");
+$conn = new mysqli("lyobawio_anixer.shop", "lyobawio_anixer0", "Addmin1995", "lyobawio_anixer.shop");
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
@@ -25,7 +25,7 @@ $zpi = "https://your-hosted-api.com/api"; //https://github.com/PacaHat/zen-api
 $proxy = $websiteUrl . "/src/ajax/proxy.php?url=";
 
 //If you want faster loading speed
-//$proxy = "https://your-hosted-proxy.com/api/v1/streamingProxy?url="; //https://github.com/MetaHat/m3u8-streaming-proxy
+$proxy = "https://kdhfjh.vercel.app/api/v1/streamingProxy?url="; //https://github.com/MetaHat/m3u8-streaming-proxy
 
 
 $banner = $websiteUrl . "/public/images/banner.png";
